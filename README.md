@@ -529,7 +529,7 @@ You can then view your function's details in the [AWS Lambda Service Page](https
 
 > NOTE: Be sure NOT to edit your function or any options within the AWS Lambda Service Page. Those changes will be overwritten the next time you run `chalice deploy`.
 
-To view the logs for your Lambda function, open the function from the list and click into the **MONITOR** tab below the Overview. Find the "View Cloudwatch Logs" button and open it. This will give you a view into logs.
+To view the logs for your Lambda function, open the function from the list and click into the **MONITOR** tab below the Overview. Find the "View Cloudwatch Logs" button and open it. This will give you a view into logs. Refer to the video above to see how this works.
 
 ### Test and Debug
 
