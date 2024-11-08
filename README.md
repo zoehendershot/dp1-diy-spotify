@@ -11,6 +11,10 @@ In this project you will build a homemade, web-based music player that resembles
 
 ## STEP ZERO - Overview
 
+### 0. Fork this Repository
+
+Create your own fork of this repo to do your work. You do NOT need to submit a pull request back to the upstream; simply track your code and push/pull back to your own fork.
+
 ### 1. Project Resources
 
 Much of the infrastructure for this project is created with an Amazon CloudFormation template. Details for each resource are below.
