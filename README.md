@@ -559,5 +559,12 @@ This project is worth 15 points. Here is a breakdown of the grading rubric:
 - Student properly creates a database, loads schemas and data. (2 points)
 - Student FastAPI connects to the database and displays table data. (3 points)
 - Student FastAPI container is deployed into their EC2 instance. (2 points)
-- Student web interface connects properly to backend API and displays *their* songs. (2 points)
+- Student web interface connects properly to their backend API and displays *their* songs. (2 points)
 - Student solution ingests a new song uploaded by instructional staff and displays it properly in the API and web interface without manual intervention. (4 points)
+
+**Possible Deductions**
+
+While completing the points above will earn up to 15 points total, you can have points deducted from an otherwise-successful project:
+
+- If you commit database credentials to git/GitHub and push them, you will lose 3 points.
+- If songs appear in your web interface but cannot be played, you will lose 1 point.
