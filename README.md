@@ -535,7 +535,7 @@ To view the logs for your Lambda function, open the function from the list and c
 
 The first way to test your Lambda function is by uploading one of your song metadata files (`.json`) into the S3 bucket. Check to see if your function executed well, or not, by looking into the CloudWatch logs for your function.
 
-If you are having serious problems with the SQL `INSERT` command, you can always create a separate piece of Python to run and execute by hand, in order to debug your syntax and structure.
+If you are having serious problems with the SQL `INSERT` command, you can always create a separate piece of Python to run and execute by hand, in order to debug your syntax and structure. Knowing that your Lambda function will be given the `bucket` and `key` value, you can simulate that in a separate code snippet to test fetching the JSON file, reading it, extracting its values, and pushing those into a new SQL INSERT statement.
 
 ## STEP EIGHT - Submit Your Work
 
