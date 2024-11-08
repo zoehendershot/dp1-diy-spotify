@@ -427,7 +427,7 @@ Next, edit the `.chalice/config.json` file that Chalice created automatically. I
 ```
 Update the `DBPASS` and `DB` values accordingly to the password in Canvas and the name of YOUR database. These variables will be deployed to AWS when you publish your function, but will not be committed to GitHub.
 
-Finally, in both `requirements` files, add:
+Finally, in both `requirements` files, add these values:
 
     mysql-connector-python
     boto3
@@ -447,10 +447,12 @@ app = Chalice(app_name='backend')
 app.debug = True
 
 # s3 things
+## UPDATE NEXT LINE
 S3_BUCKET = 'nem2p-dp1-spotify'
 s3 = boto3.client('s3')
 
 # base URL for accessing the files
+## UPDATE NEXT LINE
 baseurl = 'http://nem2p-dp1-spotify.s3-website-us-east-1.amazonaws.com/'
 
 # database things
