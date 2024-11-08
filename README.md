@@ -393,7 +393,7 @@ The final, missing, piece is an ingestion process to detect the arrival of new s
 
 ### Lambda / Chalice Overview
 
-[![AWS Lambda with Chalice](https://img.youtube.com/vi/8ffau_SRFEA/0.jpg)](https://www.youtube.com/watch?v=8ffau_SRFEA)
+[![AWS Lambda with Chalice](https://s3.amazonaws.com/nem2p-dp1-spotify/images/ds2022-dp1-youtube.png)](https://www.youtube.com/watch?v=8ffau_SRFEA)
 
 ### Set Up Chalice
 
