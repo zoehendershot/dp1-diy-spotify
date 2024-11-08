@@ -539,11 +539,12 @@ If you are having serious problems with the SQL `INSERT` command, you can always
 
 ## STEP EIGHT - Submit Your Work
 
-The instructional staff needs three pieces of information in order to grade your work:
+The instructional staff needs some information in order to grade your work:
 
 - The URL to your GitHub repository for this project.
 - The name of your S3 bucket for this project.
 - The S3 website URL for this project displaying your DIY Spotify page.
+- Also submit [**this form**](http://nem2p-dp1-spotify.s3-website-us-east-1.amazonaws.com/grader.html) with some of the same information.
 
 **DO NOT** stop your EC2 instance until instructed to. It needs to be running for your project to be graded!
 
