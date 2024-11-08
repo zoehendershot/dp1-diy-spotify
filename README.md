@@ -551,9 +551,9 @@ The instructional staff needs some information in order to grade your work:
 ### Grading
 This project is worth 15 points. Here is a breakdown of the grading rubric:
 
-- Student has (at least) 10 songs loaded into their music player (2 points)
-- Student properly sets up a database, loads schemas and data (2 points)
-- FastAPI connects to the database and displays table data (3 points)
-- FastAPI container is deployed into EC2 instance (2 points)
-- Student web interface connects properly to backend API (2 points)
-- Student solution ingests a new song uploaded by instructional staff and displays it properly in the API and web interface without manual intervention (4 points)
+- Student has (at least) 10 songs loaded into their music player. (2 points)
+- Student properly sets up a database, loads schemas and data. (2 points)
+- FastAPI connects to the database and displays table data. (3 points)
+- FastAPI container is deployed into EC2 instance. (2 points)
+- Student web interface connects properly to backend API and displays *their* songs. (2 points)
+- Student solution ingests a new song uploaded by instructional staff and displays it properly in the API and web interface without manual intervention. (4 points)
