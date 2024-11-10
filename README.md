@@ -237,6 +237,8 @@ To connect your FastAPI application to the MySQL database, you will need to:
 - Write the appropriate queries to the database
 - Display the data as JSON output from the API
 
+> For more information on MySQL and Python, refer to [**this page**](SQL-PY.md).
+
 ### 1. Install the `mysql` connector package
 
 In your FastAPI application, add the following line to the `requirements.txt` file:
