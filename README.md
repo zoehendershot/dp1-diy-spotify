@@ -382,6 +382,8 @@ Find the S3 Website URL from that step and open it in another browser tab. That 
 
 **http://nem2p-dp1-spotify.s3-website-us-east-1.amazonaws.com/**
 
+> NOTE: Feel free to customize that web page however you like, so long as it still displays your songs for playback. You can change the name, colors, etc.
+
 ## TAKE A BREAK. DRINK SOME WATER. YOU'RE DOING GREAT!
 
 ![Mr. Bean](https://media1.tenor.com/m/MqTayCB_FyIAAAAd/exactly-right.gif)
