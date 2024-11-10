@@ -131,6 +131,8 @@ Put your song bundles in a separate `songs` directory within your project but do
 
 Open the link below in a new browser tab:
 
+**BE SURE TO LAUNCH YOUR STACK IN THE `us-east-1` REGION WITHIN AWS.** This will not deploy in another region.
+
 [![S3 Bucket served through CloudFront cache](https://raw.githubusercontent.com/nmagee/aws-snippets/main/images/launch-stack.png)](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?stackName=dp1&templateURL=https://s3.amazonaws.com/ds2022-resources/dp/dp1-fullstack.yaml) - Data Project 1 Resources [Template](templates/dp1-fullstack.yaml)
 
 Notes about this template:
