@@ -165,9 +165,10 @@ Then supply the server, username, and password from the assignment in Canvas.
 
 ### Create a new database
 
-If using the `mysql` CLI, enter this command, replacing `XXXX` with your UVA computing ID.
+If using the `mysql` CLI, enter this command, replacing `XXXX` with your UVA computing ID. Then issue the command to use the database you create.
 
     create database XXXXX;
+    use XXXXX;
 
 If using PhpMyAdmin, find the list of databases in the lefthand navigation and click on NEW. Provide your UVA computing ID as the name of the database and click CREATE.
 
