@@ -1,6 +1,6 @@
 # Data Project 1: DIY Spotify
 
-In this project you will build a homemade, web-based music player that resembles Spotify. This will demonstrate your ability to (1) organize and create data files according to a schema; (2) ingest those data using modern techniques; (3) store each song's metadata in a relational database; and (4) expose that data in an API endpoint.
+In this project you will build a homemade, web-based music player that resembles Spotify. This will demonstrate your ability to (1) organize and create data files according to a schema; (2) ingest those data using cloud-native techniques; (3) store each song's metadata in a relational database; and (4) expose that data in an API endpoint.
 
 - Explore a sample [**Frontend**](http://nem2p-dp1-spotify.s3-website-us-east-1.amazonaws.com/) of this project.
   
