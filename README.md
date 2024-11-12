@@ -4,7 +4,7 @@ In this project you will build a homemade, web-based music player that resembles
 
 - Explore a sample [**Frontend**](http://nem2p-dp1-spotify.s3-website-us-east-1.amazonaws.com/) of this project.
   
-- Explore two sample **API Endpoints** for this project:
+- Explore two sample **API Resources** for this project:
   - [**Songs**](https://bv1e9klemd.execute-api.us-east-1.amazonaws.com/api/songs)
   - [**Genres**](https://bv1e9klemd.execute-api.us-east-1.amazonaws.com/api/genres)
 
