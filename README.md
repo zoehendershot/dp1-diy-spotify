@@ -299,9 +299,8 @@ def get_genres():
         json_data=[]
         for result in results:
             json_data.append(dict(zip(headers,result)))
-        output = json.dumps(json_data)
-        return(output)
-    except mysql.connector.Error as e:
+        return(json_data)
+    except Error as e:
         print("MySQL Error: ", str(e))
         return None
     cur.close()
