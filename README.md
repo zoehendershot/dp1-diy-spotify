@@ -386,13 +386,13 @@ If you want to see the output logs of the container as it runs, specify the cont
 
 To stop the container:
 
-    docker stop zzzzz
+    docker stop zzzzzz
 
 #### Test Your EC2-based API
 
 Open a browser tab to the IP address of your EC2 instance. You should hopefully see a `{"hello":"world"}` message or something similar. 
 
-Go to your `/songs` endpoint to see if you have good results.
+Go to your `/genres` and `/songs` endpoints to see if you have good results.
 
 ## STEP SIX - Set up and test your Web UI
 
