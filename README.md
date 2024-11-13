@@ -111,7 +111,7 @@ An example:
   "year": 2020
 }
 ```
-Each song package (all 3 files) must contain five data points: `title`, `album`, `artist`, and the integers of the song's `genre` (according to the genres API above) and `year`.
+Each song's metadata file must contain five data points: `title`, `album`, `artist`, and the integers of the song's `genre` (according to the genres API above) and `year`.
 
 - - -
 
