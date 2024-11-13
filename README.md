@@ -289,7 +289,7 @@ Try running your application and see if you encounter errors. Debug as necessary
 Here is the code for the `/genres` endpoint. Paste this into your FastAPI application and test:
 
 ```
-@app.route('/genres', methods=['GET'], cors=True)
+@app.get('/genres')
 def get_genres():
     query = "SELECT * FROM genres ORDER BY genreid;"
     try:    
@@ -309,8 +309,7 @@ def get_genres():
 
 A few notes about the block above:
 
-- FastAPI requires the route decorator, which specifies the METHOD for that endpoint.
-- The `cors` value is unique to APIs, and indicates that other websites can fetch data from this API. (This is desired.)
+- FastAPI requires a method decorator.
 - The function associated with the decorator takes no parameters.
 - The query is standard SQL with no parameters or string replacement.
 - The `try` block executes the SQL using the cursor, creates a header row, fetches all results, then loads the headers and values as a dictionary in each row. It is then output as JSON and returned.
