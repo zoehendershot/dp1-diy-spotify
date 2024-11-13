@@ -327,7 +327,6 @@ def get_genres():
     except Error as e:
         print("MySQL Error: ", str(e))
         return None
-    cur.close()
 ```
 
 A few notes about the block above:
@@ -337,7 +336,6 @@ A few notes about the block above:
 - The query is standard SQL with no parameters or string replacement.
 - The `try` block executes the SQL using the cursor, creates a header row, fetches all results, then loads the headers and values as a dictionary in each row. It is then output as JSON and returned.
 - Generic error handling is in place to display any connection or query issues.
-- Note the cursor is closed at the end of each function.
 
 ### 5. Create the `/songs` endpoint in your API
 
