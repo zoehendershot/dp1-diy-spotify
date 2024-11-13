@@ -333,7 +333,7 @@ A few notes about the block above:
 - FastAPI requires a method decorator. You do not need additional method or cors attributes in it.
 - The function associated with the decorator takes no parameters and must be uniquely named from other functions.
 - The query is standard SQL with no parameters or string replacement.
-- The `try` block executes the SQL using the cursor, creates a header row, fetches all results, then loads the headers and values as a dictionary in each row. It is then output as JSON and returned.
+- The `try` block executes the SQL using the cursor, creates a header row, fetches all results, then loads the headers and values as a dictionary in each row. It is automatically formatted as JSON and returned.
 - Generic error handling is in place to display any connection or query issues.
 
 ### 5. Create the `/songs` endpoint in your API
