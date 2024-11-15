@@ -276,7 +276,7 @@ Find the password value from Canvas and set it in your local environment using t
 export DBPASS='xxxxxxxxx'
 ```
 
-> **NOTE:** There is a dollar sign `$` in the password, which as a special character can be misread. The way to avoid this is by escaping it with a backslash immediately before the character. So instead of `$` escape it with `\$`.
+> **NOTE:** There is a dollar sign `$` in the password, which as a special character can be misread. The way to avoid this is by escaping it with a backslash immediately before the character. So instead of `$` escape it with `\$`. You may want to consider using the alternate credentials givin in Canvas so that you don't have to worry about this.
 
 Finally, bring all of these elements together into a single DB connection string, and create a cursor using that:
 
