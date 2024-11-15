@@ -115,7 +115,7 @@ Each song's metadata file must contain five data points: `title`, `album`, `arti
 
 - - -
 
-Your first task is to collect at least ten (10) songs and create their associated metadata files.
+Your first task is to collect at least ten (10) songs and create their associated metadata files. You can create these by hand - gathering the right MP3 file and image, and hand-typing the JSON metadata file.
 
 1. **MP3 files** - can be created from YouTube videos using tools such as [this](https://ezmp3.cc/).
 2. **Metadata JSON files** - can be written by hand using the schema above.
