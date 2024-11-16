@@ -596,3 +596,12 @@ While completing the points above will earn up to 15 points total, you can have 
 
 - If you commit database credentials to git/GitHub and push them, you will lose 3 points.
 - If songs appear in your web interface but cannot be played, you will lose 1 point.
+
+
+## Cleanup
+
+**After your project is graded** (once you receive your grade in Canvas), tearing down your solution is simple:
+
+1. Save/commit any code you want to save. Be careful NOT to commit any passwords or credentials.
+2. [Empty your S3 bucket](https://us-east-1.console.aws.amazon.com/s3/home?region=us-east-1) using either the CLI or the AWS Console.
+3. [Delete the CloudFormation stack](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/?filteringText=&filteringStatus=active&viewNested=true) you used to deploy resources for this project.
